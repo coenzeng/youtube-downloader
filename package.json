@@ -2,13 +2,15 @@
   "name": "tiktok-test",
   "version": "0.0.0",
   "scripts": {
+    "docker-image": "docker build -t coenzeng/example:3 .",
+    "docker-container": "docker run -p 4000:3000 coenzeng/example:3",
+
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "prod": "vite build && vite preview"
   },
   "dependencies": {
-    "process": "^0.11.10",
-    "process-nextick-args": "^2.0.1",
     "vue": "^3.2.6",
     "vue-router": "^4.0.11"
   },

@@ -5,3 +5,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+
+## Docker Setup
+See package.json. Run `npm run docker-image` to build an image, then run `npm run docker-container` to create a container.
