@@ -1,11 +1,27 @@
-# Vue 3 + Vite
+# Tiktok Audio Download
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## About
+
+An online tool to search tiktok users and download liked videos.
+
+## Technologies
+
+- Vue
+- HTML
+- SCSS
+- Javascript
+- Vite
+- Docker
+- Prettier
 
 ## Docker Setup
 
 See package.json. Run `npm run docker-image` to build an image, then run `npm run docker-container` to create a container.
+
+## Local Development Setup
+
+1. `npm i`
+2. `npm run dev`
+3. Navigate to `localhost:3000`
