@@ -8,6 +8,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+/* Define standard variables and values for website */
+@import "../scss/_variables.scss";
 
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: black;
+  font-size: $fontsize;
+}
 </style>

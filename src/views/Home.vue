@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-home
 <p ref="p">My name is {{ name }} and my age is {{ age }}</p>
 <button @click="handleClick">Click Me</button>
 <input type="text" v-model="name">
 <button @click="stopEffect1">Stop Watching</button>
   </div>
+    <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
 <script>
+import HelloWorld from '../components/HelloWorld.vue'
 import { computed, ref } from '@vue/reactivity'
 import { watchEffect } from '@vue/runtime-core'
 // @ is an alias to /src
@@ -43,3 +44,21 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+/* Define standard variables and values for website */
+@import "../scss/reset.scss";
+@import "../scss/_variables.scss";
+
+/* Use the variables */
+body {
+  background-color: $bgcolor2;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+p {
+  color: $textcolor;
+}
+
+</style>
