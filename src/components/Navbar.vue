@@ -1,17 +1,15 @@
 <template>
-    <div id="nav">
-        <ul>
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/about">About</router-link></li>
-        </ul>
-    </div>
-    <router-view/>
+  <div id="nav">
+    <ul>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/about">About</router-link></li>
+    </ul>
+  </div>
+  <router-view />
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss">
@@ -22,7 +20,7 @@ export default {
   position: fixed;
   top: 0;
   width: 100%;
-    ul {
+  ul {
     text-align: center;
     list-style-type: none;
     list-style-type: none;
@@ -30,20 +28,19 @@ export default {
     padding: 15px;
   }
 
-    li {
-      display: inline;
-      font-family: "Fira Sans", sans-serif;
-      font-size: 17px;
-    
+  li {
+    display: inline;
+    font-family: 'Lato';
+    font-size: 17px;
+  }
+  a {
+    /*router-link*/
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px;
+    &:hover {
+      background-color: #111;
     }
-    a { /*router-link*/
-        color: #f2f2f2;
-        text-decoration: none;
-        padding: 14px;
-        &:hover {
-          background-color: #111;
-        }
-      }
+  }
 }
-
 </style>
