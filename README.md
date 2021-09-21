@@ -1,13 +1,13 @@
-# Tiktok Audio Download
-
+# Youtube Downloader
 
 
 ## About
 
-An online tool to search tiktok users and download liked videos.
+An online tool to download youtube videos and playlists. Supports MP3 and MP4 output formats.
 
 ## Technologies
-
+- Node
+- Express
 - Vue
 - HTML
 - SCSS
